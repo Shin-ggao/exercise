@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/*侧边导航栏开始*/
+    .sub-banner{
+        position: relative;
+    }
+    .sub-banner a{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 644px;
+        background: url("../01.JD第一天/JD/images/subbanner.jpg") no-repeat center top;
+    }
+/*侧边导航栏结束*/
+/*main部分开始*/
+    .main{
+        position: relative;
+    }
+    .main-slider{
+        float: left;
+        margin:12px 0 0 220px;
+        width: 730px;
+        height: 454px;
+        position: relative;
+    }
+    .main-slider ul{
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        margin-left: -66px;
+    }
+    .main-slider ul li{
+        float: left;
+        color: #fff;
+        width: 18px;
+        height: 18px;
+        background-color: #3E3E3E;
+        line-height: 18px;
+        border-radius: 50%;
+        text-align: center;
+        margin: 0 2px;
+        cursor:pointer;
+    }
+    .arrow a{
+        position: absolute;
+        top: 50%;
+        width: 28px;
+        height: 62px;
+        background-color: #000;
+        color: #fff;
+        font: 400 22px/62px simsun;
+        text-align: center;
+        margin-top: -31px;
+        opacity: 0.3;
+    }
+    .arrow a:hover{
+        background-color: rgba(0,0,0,.6);
+    }
+    .arrow .arrow-left{
+        left: 0;
+    }
+    .arrow .arrow-right{
+        right: 0;
+    }
+    .main-news{
+        float: right;
+        height: 466px;
+        width: 250px;
+
+    }
+    .main-news-top{
+        height: 372px;
+        width: 248px;
+        border: 1px solid #E4E4E4;
+        margin: 12px 0 5px 0;
+        overflow: hidden;     /*把多的3px隐蔽掉*/
+    }
+    .main-news-top-fast{
+        height: 163px;
+        border-bottom: 1px dashed #E4E4E4;
+    }
+    .main-news-top-fast-title{
+        height: 32px;
+        border-bottom: 1px dotted #E8E8E7;
+        padding: 0 15px;
+        font:16px/32px microsoft yahei;
+    }
+    .main-news-top-fast-title h3{
+        float: left;
+    }
+    .main-news-top-fast-title a{
+        float: right;
+        font-family: Consolas;
+    }
+    .main-news-top-fast-content{
+        padding: 5px 0 0 15px;
+    }
+    .main-news-top-fast-content li{
+        height: 24px;
+        line-height: 24px;
+    }
+    .main-news-top-fast-content li span{
+        font-weight: 700;
+        margin-right: 5px;
+    }
+    .main-news-top-money ul{
+        width: 260px;             /*宽度在4个li以上，5个li以下*/
+    }
+    .main-news-top-money li{
+        float: left;
+        width: 62px;
+        height: 70px;
+        border: 1px solid #E8E8E7;
+        margin-left: -1px;                /*让后面盒子的左边线压住前面盒子的右边线*/
+        margin-top: -1px;                   /*让下面盒子的上边线压住上面盒子的下边线*/
+        border-top: 0;
+    }
+    .main-news-top-money a{
+        display: block;
+        width: 62px;
+        height: 30px;
+        text-align: center;
+        padding-top: 40px;
+        line-height: 30px;
+        position: relative;
+    }
+    .main-news-top-money i{
+        position: absolute;
+        top: 13px;
+        left: 18px;
+        width: 25px;
+        height: 25px;
+        background: url("../01.JD第一天/JD/images/fly.png") no-repeat;
+    }
+/*main部分结束*/
+/*today部分开始*/
+    .today{
+        margin:10px auto 20px ;
+        position: relative;
+    }
+    .today-left{
+        float: left;
+    }
+    .today-left a{
+        display: block;
+        width: 210px;
+        height: 151px;
+        background: url("../01.JD第一天/JD/images/pic1.jpg");
+    }
+    .today-right{
+        float: right;
+        width: 1000px;
+        overflow: hidden;
+        position: relative;
+    }
+    .today-right ul{
+        width: 5000px;           /*宽度不够，父盒子里面套个大盒子加大宽度，防止浮动位置不够掉下去*/
+    }
+    .today-right li{
+        float: left;
+        margin-left: 1px;
+    }
+/*today部分结束*/
